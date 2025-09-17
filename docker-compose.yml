@@ -52,7 +52,7 @@ services:
     image: ghcr.io/linuxserver/radarr
     container_name: radarr
     environment:
-      - PUID=radarr
+      - PUID=solomonjames
       - PGID=users
       - TZ=America/New_York
     volumes:
